@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Токен только в .env, не в коде!
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8937288340:AAFOQDffMAesEjonf59nFh89F3n8uTIolgQ").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", ").strip()
 WARNING_DELETE_SECONDS = 7
 CAPTCHA_TTL = 120          # сколько секунд действует капча
 MAX_CHANNELS = 5           # максимум обязательных каналов
